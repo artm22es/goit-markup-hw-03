@@ -31,6 +31,8 @@ button {
 .container {
   width: 1158px;
   margin: 0 auto;
+  outline: 2px solid tomato;
+  outline-offset: -2px;
 }
 
 .link {
@@ -70,6 +72,12 @@ button {
 }
 
 /*========== HEADER ==========*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -107,6 +115,7 @@ button {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contact {
