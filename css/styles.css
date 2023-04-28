@@ -41,7 +41,8 @@ ol {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .link {
@@ -185,8 +186,8 @@ ol {
 
 .hero-title {
   max-width: 496px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
