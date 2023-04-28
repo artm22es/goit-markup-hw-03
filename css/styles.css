@@ -106,6 +106,10 @@ ol {
 
 /*========== HEADER ==========*/
 
+.page-header {
+  border-bottom: 1px #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
