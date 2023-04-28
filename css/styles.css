@@ -85,11 +85,6 @@ ol {
   color: var(--primary-text-color);
 }
 
-.galery-wrapper {
-  text-align: center;
-  padding: 32px 0;
-}
-
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +102,7 @@ ol {
 /*========== HEADER ==========*/
 
 .page-header {
-  border-bottom: 1px #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -152,6 +147,7 @@ ol {
 }
 
 .menu-link {
+  padding: 24px 0;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -205,7 +201,7 @@ ol {
 }
 
 .hero-container {
-  padding: 188px 472px;
+  padding: 188px 0;
 }
 
 .hero {
@@ -216,6 +212,9 @@ ol {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -235,7 +234,7 @@ ol {
 /*========== ADVANTAGES ==========*/
 
 .adv {
-  padding-bottom: 0;
+  padding: 120px 0;
 }
 
 .adv-list {
@@ -256,6 +255,11 @@ ol {
   background-color: #f4f4fd;
 }
 
+.galery-wrapper {
+  text-align: center;
+  padding: 32px 16px;
+}
+
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -266,16 +270,12 @@ ol {
 /*========== FOOTER ==========*/
 
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -304,17 +304,15 @@ ol {
 
 /*========== FILTERS ==========*/
 
-.filters-container {
-  display: flex;
-  align-items: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+.portfolio {
+  padding: 96px 0 120px;
 }
 
 .filters {
   display: flex;
-  margin: 0 auto;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
@@ -333,6 +331,7 @@ ol {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  border: 1px solid transparent;
   background-color: #404bbf;
   color: #ffffff;
 }
