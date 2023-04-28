@@ -42,8 +42,6 @@ ol {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid tomato;
-  outline-offset: -2px;
 }
 
 .link {
@@ -336,6 +334,27 @@ ol {
 }
 
 /*==========SECTION PORTFOLIO==========*/
+
+.portfolio-container {
+  padding-bottom: 120px;
+}
+
+.img-text {
+  border: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.portfolio-list {
+  background-color: #ffffff;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
 
 .portfolio-title {
   font-weight: 500;
